@@ -1,0 +1,5 @@
+*main
+.env
+*config.yaml
+zdoc.md
+decompose.md
