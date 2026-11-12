@@ -12,9 +12,9 @@ type Handler struct {
 	service *service.Service
 }
 
-func NewHandler(service *service.Service) *Handler{
-	return &Handler {
-		service : service,
+func NewHandler(service *service.Service) *Handler {
+	return &Handler{
+		service: service,
 	}
 }
 
@@ -26,5 +26,4 @@ func (h *Handler) SubscribeHandler(c *gin.Context) {
 		return
 	}
 
-	
 }
