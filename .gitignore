@@ -1,5 +1,11 @@
 *main
+
 .env
 *config.yaml
+
+!.env.example
+!config.example.yaml
+
 zdoc.md
 decompose.md
+webhook_example.md
